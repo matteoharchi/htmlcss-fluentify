@@ -27,7 +27,6 @@ nav {
     line-height: 70px;
     font-size: 12px;
     margin bottom: 200px;
-
 }
 .menù-container {
     display: inline-block;
@@ -45,7 +44,6 @@ nav {
 #logo img {
     width: 80px;
 }
-
 .menù {
     display: inline-block;
     line-height: normal;
@@ -78,7 +76,6 @@ nav {
 }
 .testo-banner {
     width: 45%;
-    border: 2px solid white;
     color: white;
     float: left;
     padding: 50px 20px 0 0;
@@ -92,30 +89,19 @@ nav {
     margin-top: 20px;
     text-transform: uppercase;
 }
-/* .immagine {
-    position:absolute;
-    width: 70%;
-    height: 300px;
-    right: 0;
-    bottom: 0;
-    background-image: url("https://cdn.fluentify.com/bundles/fluentifypublic/images/r4b/01/oldman.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding: 100px 0;
-} */
 .immagine {
     position:absolute;
-    width: 70%;
-    height: 500px;
+    width: 100%;
+    height: 350px;
     right: 0;
     bottom: 0;
-    border: 1px solid white;
+    margin-bottom: 0;
 }
 .immagine img {
     max-height: 100%;
     max-width: 100%;
     height: auto;
-    bottom: 0;
+    float: right;
 }
 /* GRIGIO */
 .grigio {
@@ -125,7 +111,6 @@ nav {
 }
 .testo-nero {
     margin-bottom: 10px;
-
 }
 .testo-grigio {
     color: lightgrey;
@@ -150,4 +135,8 @@ nav {
 }
 .green-title {
     color: green;
+}
+.green-title hr {
+    width: 30%;
+    margin: 10px 35%;
 }
